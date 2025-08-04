@@ -1,14 +1,15 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: simple-nodejs-ingress
+  name: simple-nodejs-ingress-stable
   namespace: simple-nodejs-app
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-    - http:
+    - host: chinmayto.com
+      http:
         paths:
           - path: /
             pathType: Prefix

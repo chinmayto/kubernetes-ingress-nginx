@@ -8,12 +8,23 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - http:
+    - host: app1.chinmayto.com
+      http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
                 name: service-nodejs-app-1
+                port:
+                  number: 80
+    - host: app2.chinmayto.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: service-nodejs-app-2
                 port:
                   number: 80

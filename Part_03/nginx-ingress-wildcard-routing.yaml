@@ -8,7 +8,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - http:
+    - host: "*.chinmayto.com"
+      http:
         paths:
           - path: /
             pathType: Prefix
