@@ -4,7 +4,7 @@ So far in our Kubernetes Ingress playlist, we've covered what Ingress is, how to
 
 While in production environments you should always use trusted Certificate Authorities (e.g., via Let's Encrypt or AWS ACM), self-signed certs are useful in dev/test environments or for internal services where you control the client machines.
 
-We will secure our simple-nodejs-app which is already exposed via Ingress and add a TLS layer on top using a self-signed certificate.
+We will secure our simple-nodejs-app which is already exposed via Ingress and add a TLS layer on top using a self-signed certificate. I have already deployed the pod with service and added an A record in Route 53 for NLB dns name.
 
 ### Step 1. Generate Self-Signed TLS Certificate
 
@@ -210,6 +210,5 @@ While not suitable for production, self-signed TLS certificates are extremely us
 4. Save cost on cert management for internal tools
 
 ### References
-1. GitHub Repo: 
-
+1. GitHub Repo: https://github.com/chinmayto/kubernetes-ingress-nginx/tree/main/Part_05
 
