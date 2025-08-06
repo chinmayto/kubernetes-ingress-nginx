@@ -1,4 +1,4 @@
-# Kubernetes Ingress Playlist Part 2- Installing NGINX Ingress Controller on AWS EKS using Helm
+# Kubernetes Ingress Playlist – Part 2: Installing NGINX Ingress Controller on AWS EKS using Helm
 
 In earlier part of our Kubernetes Ingress Playlist, we understood what Kubernetes Ingress is and why it's important in simplifying external access to services within your cluster.
 

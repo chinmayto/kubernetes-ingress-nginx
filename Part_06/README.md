@@ -1,4 +1,5 @@
-# Part 6: Securing the Kubernetes Ingress Using Cert-Manager with HTTPS
+# Kubernetes Ingress Playlist – Part 6: Securing the Kubernetes Ingress Using Cert-Manager with HTTPS
+
 In the previous parts of our Kubernetes Ingress playlist, we covered installing the NGINX Ingress Controller, implementing host/path-based routing, and enabling authentication and self-signed TLS. Now, it's time to move a step ahead and automate certificate management using Cert-Manager — a powerful tool that simplifies issuing and renewing SSL/TLS certificates within your Kubernetes cluster.
 
 In this part, we’ll:
@@ -211,3 +212,6 @@ Using Cert-Manager, we’ve automated the entire TLS certificate lifecycle withi
 3. Supports both staging and production issuers
 
 This boosts security, ensures reliability, and simplifies operational overhead. It’s a production-grade solution for securing Kubernetes services via Ingress and a must-have for modern cloud-native applications.
+
+# References
+GitHub Repo: https://github.com/chinmayto/kubernetes-ingress-nginx/tree/main/Part_06

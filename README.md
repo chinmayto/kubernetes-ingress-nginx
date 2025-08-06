@@ -16,11 +16,11 @@ There are two main variants:
 
 We'll unravel the core concepts of Kubernetes Ingress, dive into its powerful features, and walk you through hands-on examples and best practices. Whether you're new to Kubernetes or an experienced user, our aim is to make Ingress easier to understand and enable you to make the most of its capabilities with confidence.
 
-Part 1:
-Part 2:
-Part 3:
-Part 4:
-Part 5:
-Part 6:
+- [Part 1 – Understanding Ingress Controllers](https://dev.to/aws-builders/kubernetes-ingress-playlist-part-1-understanding-ingress-controllers-1mjj)
+- [Part 2 – Installing NGINX Ingress on AWS EKS](https://dev.to/aws-builders/kubernetes-ingress-playlist-part-2-installing-nginx-ingress-controller-on-aws-eks-using-helm-14em)
+- [Part 3 – Routing in NGINX Ingress Controller](https://dev.to/aws-builders/kubernetes-ingress-playlist-part-3-routing-in-nginx-ingress-controller-1jib)
+- [Part 4 – Basic Authentication with NGINX Ingress](https://dev.to/aws-builders/kubernetes-ingress-playlist-part-4-basic-authentication-using-nginx-ingress-31jh)
+- [Part 5 – HTTPS with Self-Signed TLS Certificates](https://dev.to/aws-builders/kubernetes-ingress-playlist-part-5-secure-your-app-with-https-using-self-signed-tls-certificates-5aa8)
+- [Part 6 – HTTPS with Cert-Manager](https://dev.to/aws-builders/kubernetes-ingress-playlist-part-6-securing-the-kubernetes-ingress-using-cert-manager-with-https-cde)
 
 Whether you're running applications in production or exploring Kubernetes in a test environment, mastering Ingress is key to efficiently managing external access. In this series, we’ll help you navigate the complexities of Kubernetes Ingress and equip you with the knowledge to build scalable, secure, and resilient applications within your cluster.

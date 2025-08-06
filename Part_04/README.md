@@ -1,4 +1,4 @@
-# Kubernetes Ingress - Part 4: Basic Authentication using NGINX Ingress
+# Kubernetes Ingress Playlist – Part 4: Basic Authentication using NGINX Ingress
 
 In the previous parts of this playlist, we explored what Ingress is, installed the NGINX Ingress Controller on AWS EKS, and configured routing rules. In this part, we’ll focus on 
 securing access to our application using Basic Authentication with NGINX Ingress.

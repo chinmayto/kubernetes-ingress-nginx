@@ -1,4 +1,4 @@
-# Part 5: Secure Your App with HTTPS using Self-Signed TLS Certificates in Kubernetes Ingress
+# Kubernetes Ingress Playlist – Part 5: Secure Your App with HTTPS using Self-Signed TLS Certificates
 
 So far in our Kubernetes Ingress playlist, we've covered what Ingress is, how to install NGINX Ingress Controller, configure routing, and enable basic authentication. In this part, we'll take it a step further by enabling HTTPS on your application using self-signed TLS certificates.
 

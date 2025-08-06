@@ -1,4 +1,4 @@
-# Kubernetes Ingress Playlist Part 1 - Understanding Ingress Controllers
+# Kubernetes Ingress Playlist – Part 1: Understanding Ingress Controllers
 
 As organizations adopt microservices architecture and Kubernetes for deploying containerized applications, one critical question arises:
 
